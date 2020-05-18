@@ -3,22 +3,20 @@ body{
     background-color: #731AB7;
     color:#F7F7F7;
     /*border: 1px solid yellow;*/
-    height: 100%;
     margin-top: 0;
     margin-bottom: 0;
+    height: 100%;
 }
+
 .conteudo{    /*border: 1px solid red;*/
- 
-    padding-top: 2%;
+    box-sizing: border-box;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
     width: 95%;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
     background-color: #5E1593;
 }
 
@@ -26,13 +24,13 @@ header{
     text-align: center;
 }
 .logo{
-    font-family: "Apple Braille";
-    font-size: 26px;
+    font-family: Apple Braille, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     color: #F7F0F0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .titulo{
-     margin-bottom: 40px;
+     margin-bottom: 50px;
      font-family: "Lobster";
 }
 .comidas, .bebidas{  
@@ -103,18 +101,16 @@ header{
     margin: 0;
     padding: 0;
 }
-.contadores{  /*border: 1px solid red;*/
-   /* width:100%;*/
-    margin-top: 30px;
+.contadores{  
+    margin-top: 20px;
     background-color: #A379C1;   
     border-radius: 4px;
-    line-height: 25px;
     padding: 15px;
-
 }
 span{
     color:#F7F7F7;
     font-size: 16px;
+    line-height: 20px;
 }
 .contadores label{
     color:#F7F7F7;
