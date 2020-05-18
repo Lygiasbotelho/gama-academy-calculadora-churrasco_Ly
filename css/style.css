@@ -1,0 +1,121 @@
+
+body{
+    background-color: #731AB7;
+    color:#F7F7F7;
+    /*border: 1px solid yellow;*/
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.conteudo{    /*border: 1px solid red;*/
+ 
+    padding-top: 2%;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #5E1593;
+}
+
+header{
+    text-align: center;
+}
+.logo{
+    font-family: "Apple Braille";
+    font-size: 26px;
+    color: #F7F0F0;
+    margin-bottom: 10px;
+}
+.titulo{
+     margin-bottom: 40px;
+     font-family: "Lobster";
+}
+.comidas, .bebidas{  
+    text-align: center;
+    width:100%;
+    margin-top: 20px;
+    margin-left: 0;
+  /* border: 1px solid yellow;*
+    align-items: center;*/
+}/*
+.colComidas, .colBebidas{
+    border: 1px solid yellow;
+}*/
+.comidas h5, .bebidas h5{
+    margin-bottom: 10px;
+    font-family: "Lobster";
+}
+
+.comidas label, .bebidas label{
+    color: #F7F0F0;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.comidas input, .bebidas input{
+    background-color: transparent;
+    border: 3px solid #F7F7F7;
+    width: 150px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    color: #F7F0F0;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centro{
+    text-align: center;
+}
+.botao{
+    background-color: #63DC3E;
+    width: 150px;
+    color: #731AB7;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.rowAcompanhamento{
+    height: auto;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid green;*/
+}
+.acompanhamento{
+    /*border: 1px solid red;*/
+    display: flex;
+    margin-bottom:5px; 
+    margin-top: 5px;
+}
+.acompanhamento label{
+    margin-left:50px;
+  /*  border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.acompanhamento input{
+   /* border: 1px solid yellow;*/
+    margin: 0;
+    padding: 0;
+}
+.contadores{  /*border: 1px solid red;*/
+   /* width:100%;*/
+    margin-top: 30px;
+    background-color: #A379C1;   
+    border-radius: 4px;
+    line-height: 25px;
+    padding: 15px;
+
+}
+span{
+    color:#F7F7F7;
+    font-size: 16px;
+}
+.contadores label{
+    color:#F7F7F7;
+}
